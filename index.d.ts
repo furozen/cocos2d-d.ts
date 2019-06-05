@@ -16,7 +16,7 @@
 /* tslint:disable:unified-signatures no-consecutive-blank-lines class-name adjacent-overload-signatures interface-name max-line-length no-empty-interface no-namespace */
 
 declare type CallFuncCallback = (targetOrData?: any, data?: any) => any;
-declare type ccMenuItemCallback = (mi: mz.Node) => void;
+declare type ccMenuItemCallback = (mi: cc.Node) => void;
 
 // TODO: Figure out what's going on here. In lib.d.ts, this declaration exists:
 //          declare var Image: {new(width?: number, height?: number): HTMLImageElement; };
